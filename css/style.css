@@ -68,6 +68,7 @@ a {
     padding: 0 30px;
 }
 
+
 header a:hover {
     color: #999999;
 }
@@ -95,12 +96,16 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.84px;
     opacity: 0;
-    padding: 0 5px;
-}
+    padding: 0 5px;}
 
 .about-menu-nav a {
     color: #212121;
-    ;
+}
+.menu-nav a:hover{
+    color: #1049A9;
+}
+.a-home a{
+    color: #1049A9;
 }
 
 .menu-nav>li {
@@ -111,7 +116,6 @@ header {
     transition: ease 3s;
     opacity: 1;
     pointer-events: all;
-
 }
 
 .header_section {
@@ -327,7 +331,7 @@ input {
 .article-container p {
     margin: 20px 0;
     color: #464646;
-    font-family: Hind;
+    font-family: "Hind";
     font-size: 15px;
     font-weight: 300;
     line-height: 28px;
@@ -352,9 +356,11 @@ input {
     background-color: #3a3c49;
     color: #ffffff;
 }
-
+.rectangle .fa-youtube{
+    top: -18px;
+}
 .fa-pen-square,
-.fa-image {
+.fa-image, .fa-youtube {
     font-size: 35px;
     position: relative;
     top: -38px;
@@ -382,20 +388,20 @@ input {
 }
 
 .social i {
-    color: #3a3c49;
+    color: #3b3a49;
     font-size: 14px;
     margin: 0;
 }
 
 .social i:hover {
-    color: #3a3c49;
-    font-size: 1.3em;
+  color:	#1049A9
 }
 
 hr {
     margin: 0;
     color: rgba(215, 215, 215, 0.5);
     size: 1px;
+    opacity: 0.3;
 }
 
 .rectangle {
@@ -584,6 +590,13 @@ footer {
     min-height: 1520px;
     padding: 0;
 }
+.main-detail h6>i{
+    font-size: 16px;
+    margin: 0 10px;
+}
+.main-detail h6>i:hover{
+    color: #1049A9;
+}
 
 .main-travel-container {
     padding: 0 50px 20px 50px;
@@ -692,7 +705,9 @@ a :hover {
 .input-search {
     flex: 1;
 }
-
+.input-search i:hover {
+color: #1049A9;
+}
 .search-text {
     background-color: #f9f9fb;
     flex: 5;
@@ -757,6 +772,7 @@ table a {
 }
 
 table a:hover {
+    color: #1049A9;
     font-weight: bold;
 }
 
@@ -794,6 +810,9 @@ table a:hover {
     font-size: 15px;
     margin-right: 10px;
 }
+.sidebar-post h5:hover{
+    color:#1049A9 ;
+}
 
 .sidebar-post h6 {
     color: #999999;
@@ -817,8 +836,7 @@ table a:hover {
 }
 
 .social-iamages-sidebar i:hover {
-    font-size: 1.3em;
-    color: #3a3c49;
+    color: #1049A9;
 }
 
 .sidebar-slider {
@@ -836,6 +854,9 @@ table a:hover {
     background-color: #464646;
     color: #ffffff;
     padding: 10px;
+}
+.sidebar-slider i:hover{
+    color:#1049A9 ;
 }
 
 .sidebar-facebook {
@@ -876,7 +897,9 @@ table a:hover {
 .previos-next-post i {
     margin: 0 20px 5px 20px;
 }
-
+.previos-next-post a:hover{
+    color:#1049A9 ;
+}
 /* main-travel-post */
 .main-travel-post {
     background-color: #ffffff;
@@ -928,7 +951,7 @@ table a:hover {
 }
 
 .social-sharee i:hover {
-    font-size: 1.2em;
+   color: #1049A9;
 }
 
 .social-sharee-img {
@@ -939,6 +962,9 @@ table a:hover {
 .Recomended-Posts {
     padding: 20px;
     background-color: #ffffff;
+}
+.Recomended-Posts i:hover{
+    color: #1049A9;
 }
 
 .Recomended-Posts-1,
@@ -1029,7 +1055,9 @@ table a:hover {
 #form-container {
     display: block;
 }
-
+#form-container>.submite:hover{
+    color:#1049A9 ;
+}
 #form-container input {
     border: none;
     display: inline-block;
@@ -1177,6 +1205,14 @@ textarea {
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+.bags-2 span:nth-of-type(3) a{
+    color: #363636;  
+}
+.bags-2 span:nth-of-type(3) a:hover{
+    color: 	#1049A9;
+    font-weight: bold;   
 }
 
 .bags-2 i {
